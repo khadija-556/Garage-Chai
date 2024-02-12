@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+           
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="#" method="post">
+        <label for="userId">User ID:</label>
+        <input type="text" id="userId" name="userId" required>
+
+        <label for="workshopName">Workshop Name:</label>
+        <input type="text" id="workshopName" name="workshopName" required>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea>
+
+        <label for="area">Area:</label>
+        <input type="text" id="area" name="area" required>
+
+        <label for="tradeLicense">Trade License:</label>
+        <input type="text" id="tradeLicense" name="tradeLicense" required>
+
+        <label for="certifications">Certifications:</label>
+        <input type="text" id="certifications" name="certifications" required>
+
+        <label for="ownerPhoto">Owner Photo:</label>
+        <input type="file" id="ownerPhoto" name="certifications">
+
+        <label for="ownerVoterId">Owner Voter ID:</label>
+        <input type="text" id="ownerVoterId" name="ownerVoterId" required>
+
+        <label for="contactNumber">Contact Number:</label>
+        <input type="tel" id="contactNumber" name="contactNumber" required>
+
+        <label for="workshopPhoto">Workshop Photo:</label>
+        <input type="file" id="workshopPhoto" name="workshopPhoto">
+
+        <label for="workshopPhoto">Owner photo:</label>
+        <input type="file" id="workshopPhoto" name="ownerphoto">
+
+        
+        <label for="numOfEmployees">Number of Employees:</label>
+        <input type="number" id="numOfEmployees" name="numOfEmployees" required>
+
+        <label for="tin">TIN:</label>
+        <input type="text" id="tin" name="tin" required>
+
+        <label for="serviceType">Service Type:</label>
+        <input type="text" id="serviceType" name="serviceType" required>
+
+        <label for="vehicleBrand">Vehicle Brand:</label>
+        <input type="text" id="vehicleBrand" name="vehicleBrand" required>
+
+        
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
